@@ -16,7 +16,7 @@ export const sampleMovies = [
   {
     id: 3,
     title: "Queen of Tears",
-    overview: "A dramatic and emotional tale of love, betrayal, and family secrets.",
+    overview: "The queen of department stores and her small-town husband weather a marital crisis — until love miraculously begins to bloom again.",
     image: "https://images.ctfassets.net/4cd45et68cgf/Rb6wz7UfbWMR26SsqxxJL/82ba4eb884c1b2ca426a2b250d8afa86/ENUS_QueenofTears-Hae-In_CharacterKA_Vertical_RGB_PRE.jpg_ENUS_QueenofTears-Hae-In_CharacterKA_Vertical_RGB_PRE.jpg",
     category: "Top Picks",
   },
@@ -36,9 +36,9 @@ export const sampleMovies = [
   },
   {
     id: 6,
-    title: "Stranger Things",
+    title: "When Your Phone Rings",
     overview: "A love letter to the '80s classics that captivated a generation.",
-    image: "https://images.unsplash.com/photo-1517602302552-471fe67acf66?auto=format&fit=crop&w=400&q=80",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNhkl3XwZ2j5ScgxlkX6M2rzHdJsObIVh86PpxmNkYtJAW-AUP",
     category: "Trending Now",
   },
   {
@@ -85,16 +85,16 @@ export const sampleMovies = [
   },
   {
     id: 13,
-    title: "You",
+    title: "What/If",
     overview: "A dangerous, charming man goes to extreme measures for love.",
-    image: "https://images.unsplash.com/photo-1464649181301-c44b594a0c09?auto=format&fit=crop&w=400&q=80",
+    image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcQNAYFJ4jH6MPLCmlIGBrEMd2OsxDKgEZU7OyEzCFbU5KGn-WiC&psig=AOvVaw1820taSMUpTMxperiYPOrn&ust=1747408983072000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCLDG2_3jpY0DFQAAAAAdAAAAABAE",
     category: "Top Picks",
   },
   {
     id: 14,
     title: "Lucifer",
     overview: "The original fallen angel retires to L.A. and runs a club.",
-    image: "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?auto=format&fit=crop&w=400&q=80",
+    image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fencrypted-tbn2.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcQtbTZBItahxy_CaaA11vjtTNSM6u18SgifrWdztqv8SfIjI4k_&psig=AOvVaw1Y6S6Df9u804QTIqGuR08k&ust=1747409073655000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCNj-3JrkpY0DFQAAAAAdAAAAABAE",
     category: "Top Picks",
   },
   {
@@ -106,23 +106,23 @@ export const sampleMovies = [
   },
   {
     id: 16,
-    title: "Cobra Kai",
-    overview: "A new generation learns to fight in this Karate Kid sequel series.",
-    image: "https://images.unsplash.com/photo-1467810563316-b5476525c0f9?auto=format&fit=crop&w=400&q=80",
+    title: "King The Land",
+    overview: "Amid a tense inheritance fight, a charming heir clashes with his hardworking employee who's known for her irresistible smile — which he cannot stand.",
+    image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.justwatch.com%2Fin%2Ftv-show%2Fking-the-land%2Fseason-1&psig=AOvVaw1EluyEEHnOrJ1FhtOjmNx0&ust=1747409535370000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPiYkvblpY0DFQAAAAAdAAAAABAE",
     category: "Trending Now",
   },
   {
     id: 17,
     title: "Peaky Blinders",
     overview: "A gangster family epic set in 1919 Birmingham.",
-    image: "https://images.unsplash.com/photo-1465101178521-c1a9136a3769?auto=format&fit=crop&w=400&q=80",
+    image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fencrypted-tbn2.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcQlXYTWdFgKPpuRtDYwLWWFmIk8RyoMj7wxNrB9wygwvOhkp3xx&psig=AOvVaw0hpmP7Ysy0eN7e70wVOCyw&ust=1747409225453000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCJCbp-PkpY0DFQAAAAAdAAAAABAE",
     category: "Critically Acclaimed",
   },
   {
     id: 18,
-    title: "Enola Holmes",
+    title: "My Demon",
     overview: "Sherlock’s teen sister embarks on adventures in Victorian London.",
-    image: "https://images.unsplash.com/photo-1517602302552-471fe67acf66?auto=format&fit=crop&w=400&q=80",
+    image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FMy_Demon&psig=AOvVaw1zJe_E5-6pI3huY3ArxGeD&ust=1747409261372000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPj-9vbkpY0DFQAAAAAdAAAAABAE",
     category: "New Releases",
   },
   {
@@ -155,9 +155,9 @@ export const sampleMovies = [
   },
   {
     id: 23,
-    title: "When the Phone Rings",
-    overview: "A mysterious phone call draws a group of strangers into a suspenseful web of secrets, danger, and unexpected twists.",
-    image: "https://www.rottentomatoes.com/tv/when_the_phone_rings/s01",
+    title: "Vincenzo",
+    overview: "During a visit to his motherland, a Korean-Italian Mafia lawyer gives an unrivaled conglomerate a taste of its own medicine with a side of justice.",
+    image: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTaD6zet1fGlmjQQrSI0QXW-IzJ4H9LkrbpD7C-gfXdmiJ6IeUx",
     category: "Trending Now",
   },
 ];
@@ -170,3 +170,4 @@ export const categories = [
   "Critically Acclaimed",
   "Coming Soon",
 ];
+
