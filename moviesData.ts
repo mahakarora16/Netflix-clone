@@ -43,9 +43,9 @@ export const sampleMovies = [
   },
   {
     id: 7,
-    title: "The Crown",
-    overview: "The gripping, decades-spanning inside story of Her Majesty Queen Elizabeth II.",
-    image: "https://images.unsplash.com/photo-1465165665848-e9a3c2631f94?auto=format&fit=crop&w=400&q=80",
+    title: "Real",
+    overview: "A criminal aspiring to build a casino finds himself in endless threat when a man starts imitating every single thing he does.",
+    image: "https://i.pinimg.com/736x/39/c7/f2/39c7f22c06238fd31d78eb473d883180.jpg",
     category: "Trending Now",
   },
   {
@@ -57,10 +57,10 @@ export const sampleMovies = [
   },
   {
     id: 9,
-    title: "Extraction",
-    overview: "A black-market mercenary embarks on the deadliest extraction of his career.",
-    image: "https://images.unsplash.com/photo-1482062364825-616fd23b8fc1?auto=format&fit=crop&w=400&q=80",
-    category: "Action",
+    title: "Court",
+    overview: "A driven attorney battles a corrupt justice system to defend a young man whose relationship with a 17-year-old girl provokes her ruthless family's ire.",
+    image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fencrypted-tbn3.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcSCv5-y9DhS8q0U-rbpnXkuwclO0fWZp7ozSYpRrN0FmgHDnUe3&psig=AOvVaw3wHIgfS_9o6rZVVhhQhoO6&ust=1747492773127000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCJDw04CcqI0DFQAAAAAdAAAAABAE",
+    category: "Coming Soon",
   },
   {
     id: 10,
@@ -71,16 +71,16 @@ export const sampleMovies = [
   },
   {
     id: 11,
-    title: "Breaking Bad",
-    overview: "A high school chemistry teacher turned methamphetamine producer...",
-    image: "https://images.unsplash.com/photo-1464029902023-f42eba355bde?auto=format&fit=crop&w=400&q=80",
+    title: "Chaava",
+    overview: "After the death of his father, warrior-king Sambhaji Maharaj battles Mughal forces led by Aurangzeb to keep the Maratha Empire alive.",
+    image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fencrypted-tbn2.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcRuWWDMeE1iElPRz-2r6jMLvYaOgHTrNWxHIC_7S9QmoZdDa8kO&psig=AOvVaw15NSvSAjPLGlZ-m8Mi5jCh&ust=1747492669055000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCMjI_s-bqI0DFQAAAAAdAAAAABAE",
     category: "Critically Acclaimed",
   },
   {
     id: 12,
-    title: "Avengers: Endgame",
-    overview: "After the devastating events of Infinity War, the universe is in ruins...",
-    image: "https://images.unsplash.com/photo-1465101178521-c1a9136a3769?auto=format&fit=crop&w=400&q=80",
+    title: "One Ordinary Day",
+    overview: "A remake of the BBC drama Criminal Justice that delves into the criminal justice system through the story of two men surrounding a woman's murder.",
+    image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcTmbMKxgbbjXolTnnOqGcvHX0wZGQonr7E0Ci92HoFMFQyMdueY&psig=AOvVaw3fCm0T7v0nT_ugXePWFggw&ust=1747492986446000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPjD1uacqI0DFQAAAAAdAAAAABAq",
     category: "Action",
   },
   {
@@ -99,16 +99,16 @@ export const sampleMovies = [
   },
   {
     id: 15,
-    title: "Narcos",
-    overview: "Meet the men who would stop Pablo Escobar and the Medellín Cartel.",
-    image: "https://images.unsplash.com/photo-1454023492550-5696f8ff10e1?auto=format&fit=crop&w=400&q=80",
+    title: "The Royals",
+    overview: "When charming Prince Aviraaj meets Sophia, a self-made girl boss, the worlds of royalty and startups collide in a whirlwind of romance and ambition.",
+    image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.filmibeat.com%2Fphoto-gallery%2Fthe-royals-release-date-storyline-cast-and-streaming-details-102326.html&psig=AOvVaw0nB_kVU2q926fANBZiq4vc&ust=1747492500595000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMD41ICbqI0DFQAAAAAdAAAAABAE",
     category: "Critically Acclaimed",
   },
   {
     id: 16,
     title: "King The Land",
     overview: "Amid a tense inheritance fight, a charming heir clashes with his hardworking employee who's known for her irresistible smile — which he cannot stand.",
-    image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.justwatch.com%2Fin%2Ftv-show%2Fking-the-land%2Fseason-1&psig=AOvVaw1EluyEEHnOrJ1FhtOjmNx0&ust=1747409535370000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPiYkvblpY0DFQAAAAAdAAAAABAE",
+    image: "https://i.pinimg.com/736x/69/c1/49/69c149ba0ab99fa3a9bc24c762939e03.jpg",
     category: "Trending Now",
   },
   {
@@ -121,8 +121,8 @@ export const sampleMovies = [
   {
     id: 18,
     title: "My Demon",
-    overview: "Sherlock’s teen sister embarks on adventures in Victorian London.",
-    image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FMy_Demon&psig=AOvVaw1zJe_E5-6pI3huY3ArxGeD&ust=1747409261372000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPj-9vbkpY0DFQAAAAAdAAAAABAE",
+    overview: "A pitiless demon becomes powerless after getting entangled with an icy heiress, who may hold the key to his lost abilities — and his heart.",
+    image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fencrypted-tbn1.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcT65MwP6tuWN0Of54BLHRtRS1U2zJeDxRVoL18PVH5SDucwsVOi&psig=AOvVaw3QaNNd3Fswfu7PaWDkebLn&ust=1747492206014000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCIiy7fKZqI0DFQAAAAAdAAAAABAX",
     category: "New Releases",
   },
   {
