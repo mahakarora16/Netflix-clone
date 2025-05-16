@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { sampleMovies, categories } from "./moviesData";
+import { categories, sampleMovies } from "./moviesData";
 import { NavBar } from "./NavBar";
 
 function HeroBanner({ movie }) {
@@ -19,7 +19,6 @@ function HeroBanner({ movie }) {
 }
 
 function MovieRow({ title, movies, onSelect }) {
-  // Helper for image fallback
   const [failedImages, setFailedImages] = React.useState({});
   const handleImgError = (e, id) => {
     setFailedImages((prev) => ({ ...prev, [id]: true }));
@@ -27,11 +26,11 @@ function MovieRow({ title, movies, onSelect }) {
   return (
     <div className="mb-6">
       <h2 className="text-white text-xl font-semibold px-4 mb-2">{title}</h2>
-      <div className="flex overflow-x-auto gap-4 px-4 scrollbar-thin">
+      <div className="flex overflow-x-auto gap-4 px-4 scrollbar-thin scrollbar-thumb-red-600 scrollbar-track-zinc-800 hover:scrollbar-thumb-red-500">
         {movies.map((movie) => (
           <div
             key={movie.id}
-            className="min-w-[150px] w-[150px] h-[220px] rounded-lg overflow-hidden bg-zinc-800 cursor-pointer hover:scale-105 transition-transform duration-200 shadow-md flex items-center justify-center"
+            className="relative group min-w-[150px] w-[150px] h-[220px] rounded-lg overflow-hidden bg-zinc-800 cursor-pointer hover:scale-105 transition-transform duration-200 shadow-md"
             onClick={() => onSelect(movie)}
           >
             {(!movie.image || failedImages[movie.id]) ? (
@@ -46,6 +45,11 @@ function MovieRow({ title, movies, onSelect }) {
                 onError={(e) => handleImgError(e, movie.id)}
               />
             )}
+
+            {/* Hover Overlay Title */}
+            <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center p-2">
+              <p className="text-white text-sm font-semibold text-center">{movie.title}</p>
+            </div>
           </div>
         ))}
       </div>
@@ -55,7 +59,6 @@ function MovieRow({ title, movies, onSelect }) {
 
 function MovieModal({ movie, onClose }) {
   if (!movie) return null;
-  // Show genre if available
   return (
     <div className="fixed inset-0 flex items-center justify-center z-50 bg-black/70">
       <div className="bg-zinc-900 max-w-lg w-full rounded-lg shadow-xl p-6 relative">
@@ -67,7 +70,6 @@ function MovieModal({ movie, onClose }) {
         )}
         <h2 className="text-2xl font-bold text-white mb-3">{movie.title}</h2>
         <p className="text-zinc-300 text-base mb-3">{movie.overview}</p>
-        {/* Show genre if present */}
         {movie.category && (
           <div className="text-sm text-zinc-400 mb-3">Category: {movie.category}</div>
         )}
@@ -103,3 +105,4 @@ function App() {
 }
 
 export default App;
+
