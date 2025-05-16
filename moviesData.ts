@@ -50,10 +50,10 @@ export const sampleMovies = [
   },
   {
     id: 8,
-    title: "Bridgerton",
-    overview: "Wealth, lust, and betrayal set in Regency-era England.",
-    image: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80",
-    category: "New Releases",
+    title: "War",
+    overview: "A secret agent goes rogue after a mission to catch a terrorist goes awry. However, his boss sends Khalid, another agent and his student, to track him down.",
+    image: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQsHHM8pzbFQVcRVeys4kD1tnGA_dywwagbY8SJi-_NwZQxf-Rt",
+    category: "Action",
   },
   {
     id: 9,
@@ -64,9 +64,9 @@ export const sampleMovies = [
   },
   {
     id: 10,
-    title: "The Witcher",
-    overview: "The witcher Geralt, a mutated monster hunter, struggles to find his place in the world.",
-    image: "https://images.unsplash.com/photo-1706743939268-de0d24e0f7c9?auto=format&fit=crop&w=400&q=80",
+    title: "URI : The Surgical Strike",
+    overview: "Indian army special forces execute a covert operation, avenging the killing of fellow army men at their base by a terrorist group.",
+    image: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSHvgulsbkwf4qzDU4E_ofYWYBVXuKW16sw70QAp8iITBXB56Ee",
     category: "Top Picks",
   },
   {
@@ -101,7 +101,7 @@ export const sampleMovies = [
     id: 15,
     title: "The Royals",
     overview: "When charming Prince Aviraaj meets Sophia, a self-made girl boss, the worlds of royalty and startups collide in a whirlwind of romance and ambition.",
-    image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.filmibeat.com%2Fphoto-gallery%2Fthe-royals-release-date-storyline-cast-and-streaming-details-102326.html&psig=AOvVaw0nB_kVU2q926fANBZiq4vc&ust=1747492500595000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMD41ICbqI0DFQAAAAAdAAAAABAE",
+    image: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRMQxaFrNt9_HMz9irvaSEVefRA5B3yAICqYDuJRTK_TunNy3YR",
     category: "Critically Acclaimed",
   },
   {
